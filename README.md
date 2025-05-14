@@ -48,7 +48,7 @@ Um sistema de gerenciamento empresarial simples e eficiente, desenvolvido em PHP
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/mini-erp-php.git
+git clone https://github.com/caueeex/php-store-manager.git
 cd mini-erp-php
 ```
 
@@ -90,21 +90,18 @@ composer install
 ## 🚀 Uso
 
 1. Acesse o sistema pelo navegador
-2. Faça login com as credenciais padrão:
-   - Email: admin@admin.com
-   - Senha: admin123
-
-3. **Gerenciamento de Produtos**
+   
+2. **Gerenciamento de Produtos**
    - Adicione produtos com nome, preço e estoque
    - Configure variações se necessário
    - Gerencie o estoque
 
-4. **Cupons de Desconto**
+3. **Cupons de Desconto**
    - Crie cupons com código, tipo e valor
    - Defina data de validade
    - Aplique em pedidos
 
-5. **Pedidos**
+4. **Pedidos**
    - Visualize pedidos recebidos
    - Atualize status
    - Envie confirmações por email
@@ -183,7 +180,6 @@ Se os emails não estiverem sendo enviados:
 
 ## 🔒 Segurança
 
-- Todas as senhas são hasheadas
 - Proteção contra SQL Injection
 - Validação de dados
 - Sanitização de inputs
@@ -245,7 +241,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 🆘 Suporte
 
-Para suporte, envie um email para seu-email@dominio.com ou abra uma issue no GitHub.
+Para suporte, envie um email para devcauesotero@gmail.com ou abra uma issue no GitHub.
 
 ## 🙏 Agradecimentos
 
