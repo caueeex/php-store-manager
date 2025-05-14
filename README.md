@@ -48,7 +48,7 @@ Um sistema de gerenciamento empresarial simples e eficiente, desenvolvido em PHP
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/caueeex/php-store-manager.git
+git clone https://github.com/seu-usuario/mini-erp-php.git
 cd mini-erp-php
 ```
 
@@ -90,33 +90,100 @@ composer install
 ## 🚀 Uso
 
 1. Acesse o sistema pelo navegador
-   
-2. **Gerenciamento de Produtos**
+2. Faça login com as credenciais padrão:
+   - Email: admin@admin.com
+   - Senha: admin123
+
+3. **Gerenciamento de Produtos**
    - Adicione produtos com nome, preço e estoque
    - Configure variações se necessário
    - Gerencie o estoque
 
-3. **Cupons de Desconto**
+4. **Cupons de Desconto**
    - Crie cupons com código, tipo e valor
    - Defina data de validade
    - Aplique em pedidos
 
-4. **Pedidos**
+5. **Pedidos**
    - Visualize pedidos recebidos
    - Atualize status
    - Envie confirmações por email
 
 ## 📧 Configuração de Email
 
-O sistema usa o Gmail SMTP para envio de emails. Para configurar:
+Para configurar o envio de emails no sistema, siga os passos abaixo:
 
-1. Acesse sua conta Google
-2. Ative a verificação em duas etapas
-3. Gere uma senha de aplicativo
-4. Configure no arquivo `lib/Mailer.php`
+### 1. Configuração da Conta Gmail
+
+1. Acesse sua conta Gmail
+2. Ative a verificação em duas etapas:
+   - Vá em "Gerenciar sua Conta Google"
+   - Clique em "Segurança"
+   - Procure por "Verificação em duas etapas" e ative
+
+3. Gere uma senha de aplicativo:
+   - Ainda em "Segurança"
+   - Procure por "Senhas de app"
+   - Selecione "Outro (Nome personalizado)"
+   - Digite um nome (ex: "Mini ERP")
+   - Clique em "Gerar"
+   - Copie a senha gerada (16 caracteres)
+
+### 2. Configuração no Sistema
+
+1. Abra o arquivo `lib/Mailer.php`
+2. Localize as configurações SMTP e atualize:
+   ```php
+   $mail->Username = 'seu-email@gmail.com'; // Seu email Gmail
+   $mail->Password = 'sua-senha-de-app';    // Senha de 16 caracteres gerada
+   ```
+
+3. Atualize o remetente padrão:
+   ```php
+   $mail->setFrom('seu-email@gmail.com', 'Nome da Sua Loja');
+   ```
+
+### 3. Verificação das Extensões PHP
+
+Certifique-se que as seguintes extensões estão habilitadas no php.ini:
+
+```ini
+extension=openssl
+extension=php_openssl
+extension=php_smtp
+```
+
+### 4. Teste do Envio
+
+1. Faça um pedido de teste no sistema
+2. Verifique a pasta `logs/mail.log` para ver os detalhes do envio
+3. Se houver erros, verifique:
+   - Se a senha de app está correta
+   - Se as extensões PHP estão habilitadas
+   - Se o firewall não está bloqueando a conexão SMTP
+
+### 5. Solução de Problemas
+
+Se os emails não estiverem sendo enviados:
+
+1. Verifique o arquivo de log em `logs/mail.log`
+2. Confirme se o debug está ativado no Mailer.php:
+   ```php
+   $mail->SMTPDebug = 3; // Nível de debug (0-4)
+   ```
+3. Verifique se a porta 587 está liberada no firewall
+4. Confirme se o servidor tem permissão para conexões SMTP externas
+
+### 6. Segurança
+
+- Nunca compartilhe sua senha de app
+- Mantenha o arquivo Mailer.php com permissões restritas
+- Considere usar variáveis de ambiente para as credenciais
+- Faça backup regular dos logs de email
 
 ## 🔒 Segurança
 
+- Todas as senhas são hasheadas
 - Proteção contra SQL Injection
 - Validação de dados
 - Sanitização de inputs
@@ -178,7 +245,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 🆘 Suporte
 
-Para suporte, envie um email para soterocaue2@gmail.com ou abra uma issue no GitHub.
+Para suporte, envie um email para seu-email@dominio.com ou abra uma issue no GitHub.
 
 ## 🙏 Agradecimentos
 
