@@ -90,21 +90,18 @@ composer install
 ## 🚀 Uso
 
 1. Acesse o sistema pelo navegador
-2. Faça login com as credenciais padrão:
-   - Email: admin@admin.com
-   - Senha: admin123
-
-3. **Gerenciamento de Produtos**
+   
+2. **Gerenciamento de Produtos**
    - Adicione produtos com nome, preço e estoque
    - Configure variações se necessário
    - Gerencie o estoque
 
-4. **Cupons de Desconto**
+3. **Cupons de Desconto**
    - Crie cupons com código, tipo e valor
    - Defina data de validade
    - Aplique em pedidos
 
-5. **Pedidos**
+4. **Pedidos**
    - Visualize pedidos recebidos
    - Atualize status
    - Envie confirmações por email
