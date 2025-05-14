@@ -117,7 +117,6 @@ O sistema usa o Gmail SMTP para envio de emails. Para configurar:
 
 ## 🔒 Segurança
 
-- Todas as senhas são hasheadas
 - Proteção contra SQL Injection
 - Validação de dados
 - Sanitização de inputs
