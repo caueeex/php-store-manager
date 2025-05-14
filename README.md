@@ -48,7 +48,7 @@ Um sistema de gerenciamento empresarial simples e eficiente, desenvolvido em PHP
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/mini-erp-php.git
+git clone https://github.com/caueeex/php-store-manager.git
 cd mini-erp-php
 ```
 
