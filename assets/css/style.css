@@ -1,0 +1,28 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.variation-item {
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+#cart-count {
+    position: relative;
+    top: -10px;
+    left: -5px;
+}
+
+.badge {
+    font-size: 0.85em;
+    font-weight: 500;
+}

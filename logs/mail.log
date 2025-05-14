@@ -1,0 +1,1607 @@
+2025-05-14 06:22:44 - Level 3: Connection: opening to smtp.gmail.com:587, timeout=300, options=array()
+2025-05-14 06:22:44 - Level 3: Connection: opened
+2025-05-14 06:22:45 - Level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ada2fe7eead31-4dea0298db9sm7961935137.0 - gsmtp
+
+2025-05-14 06:22:45 - Level 1: CLIENT -> SERVER: EHLO localhost
+
+2025-05-14 06:22:45 - Level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2804:14d:9e86:89aa:1848:5227:1bbf:67ec]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-05-14 06:22:45 - Level 1: CLIENT -> SERVER: STARTTLS
+
+2025-05-14 06:22:45 - Level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-05-14 06:22:46 - Level 1: CLIENT -> SERVER: EHLO localhost
+
+2025-05-14 06:22:46 - Level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2804:14d:9e86:89aa:1848:5227:1bbf:67ec]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-05-14 06:22:46 - Level 1: CLIENT -> SERVER: AUTH LOGIN
+
+2025-05-14 06:22:46 - Level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-05-14 06:22:46 - Level 1: CLIENT -> SERVER: [credentials hidden]
+2025-05-14 06:22:46 - Level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-05-14 06:22:46 - Level 1: CLIENT -> SERVER: [credentials hidden]
+2025-05-14 06:22:47 - Level 2: SERVER -> CLIENT: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor ada2fe7eead31-4dea0298db9sm7961935137.0 - gsmtp
+
+2025-05-14 06:22:47 - Level 1: SMTP ERROR: Password command failed: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor ada2fe7eead31-4dea0298db9sm7961935137.0 - gsmtp
+
+2025-05-14 06:22:47 - Level 3: SMTP Error: Could not authenticate.
+2025-05-14 06:22:47 - Level 1: CLIENT -> SERVER: QUIT
+
+2025-05-14 06:22:47 - Level 2: SERVER -> CLIENT: 221 2.0.0 closing connection ada2fe7eead31-4dea0298db9sm7961935137.0 - gsmtp
+
+2025-05-14 06:22:47 - Level 3: Connection: closed
+2025-05-14 06:22:47 - Level 3: SMTP Error: Could not authenticate.
+2025-05-14 06:27:17 - Level 3: Connection: opening to smtp.gmail.com:587, timeout=300, options=array()
+2025-05-14 06:27:18 - Level 3: Connection: opened
+2025-05-14 06:27:18 - Level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 71dfb90a1353d-52c538a6f4fsm8792809e0c.43 - gsmtp
+
+2025-05-14 06:27:18 - Level 1: CLIENT -> SERVER: EHLO localhost
+
+2025-05-14 06:27:19 - Level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2804:14d:9e86:89aa:1848:5227:1bbf:67ec]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-05-14 06:27:19 - Level 1: CLIENT -> SERVER: STARTTLS
+
+2025-05-14 06:27:19 - Level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-05-14 06:27:19 - Level 1: CLIENT -> SERVER: EHLO localhost
+
+2025-05-14 06:27:19 - Level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2804:14d:9e86:89aa:1848:5227:1bbf:67ec]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-05-14 06:27:19 - Level 1: CLIENT -> SERVER: AUTH LOGIN
+
+2025-05-14 06:27:20 - Level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-05-14 06:27:20 - Level 1: CLIENT -> SERVER: [credentials hidden]
+2025-05-14 06:27:20 - Level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-05-14 06:27:20 - Level 1: CLIENT -> SERVER: [credentials hidden]
+2025-05-14 06:27:20 - Level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-05-14 06:27:20 - Level 1: CLIENT -> SERVER: MAIL FROM:<soterocaue2@gmail.com>
+
+2025-05-14 06:27:20 - Level 2: SERVER -> CLIENT: 250 2.1.0 OK 71dfb90a1353d-52c538a6f4fsm8792809e0c.43 - gsmtp
+
+2025-05-14 06:27:20 - Level 1: CLIENT -> SERVER: RCPT TO:<moniquesilva1300j@gmail.com>
+
+2025-05-14 06:27:21 - Level 2: SERVER -> CLIENT: 250 2.1.5 OK 71dfb90a1353d-52c538a6f4fsm8792809e0c.43 - gsmtp
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: DATA
+
+2025-05-14 06:27:21 - Level 2: SERVER -> CLIENT: 354 Go ahead 71dfb90a1353d-52c538a6f4fsm8792809e0c.43 - gsmtp
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: Date: Wed, 14 May 2025 06:27:17 +0200
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: To: Maria Benedita Santos de Jesus <moniquesilva1300j@gmail.com>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: From: Mini ERP <soterocaue2@gmail.com>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: Subject: =?UTF-8?Q?Confirma=C3=A7=C3=A3o_de_Pedido_#20?=
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: Message-ID: <Jay5L6c7iDwU6VJlRPOp69BiS1RK8e4ansNpppDtXaA@localhost>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:  boundary="b1=_Jay5L6c7iDwU6VJlRPOp69BiS1RK8e4ansNpppDtXaA"
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: --b1=_Jay5L6c7iDwU6VJlRPOp69BiS1RK8e4ansNpppDtXaA
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:             
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:             
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                 
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     .header { background: #4CAF50; color: white; padding: 20px; text-align: center; }
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     .content { padding: 20px; }
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     .order-info { margin-bottom: 20px; }
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     .items { width: 100%; border-collapse: collapse; margin: 20px 0; }
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     .items th, .items td { padding: 10px; border: 1px solid #ddd; }
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     .items th { background: #f5f5f5; }
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     .total { text-align: right; font-weight: bold; }
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     .footer { text-align: center; margin-top: 20px; padding-top: 20px; border-top: 1px solid #ddd; }
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                 
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:             
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:             
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                 
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         Pedido Confirmado!
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         Olá Maria Benedita Santos de Jesus,
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         Seu pedido foi recebido e está sendo processado.
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             Informações do Pedido
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             Número do Pedido: #20
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             Data: 14/05/2025 01:27
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             Status: Pending
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         Itens do Pedido
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                                 Produto
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                                 Quantidade
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                                 Preço
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                                 Subtotal
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                 
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     Iphone 15
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     1
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     R$ 15.000,00
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     R$ 0,00
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                 
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             Subtotal: R$ 15.000,00
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             Frete: R$ 0,00
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             Total: R$ 15.000,00
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             Informações de Entrega
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             Endereço:
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             Rua Doutor Adélio da Silva, Residencial Vila Velha
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             CEP: 12050720
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             Obrigado por comprar conosco!
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             Em caso de dúvidas, entre em contato conosco.
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                 
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:             
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:             
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: --b1=_Jay5L6c7iDwU6VJlRPOp69BiS1RK8e4ansNpppDtXaA
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:             <html>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:             <head>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                 <style>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     .header { background: #4CAF50; color: white; padding: 20px; text-align: center; }
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     .content { padding: 20px; }
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     .order-info { margin-bottom: 20px; }
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     .items { width: 100%; border-collapse: collapse; margin: 20px 0; }
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     .items th, .items td { padding: 10px; border: 1px solid #ddd; }
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     .items th { background: #f5f5f5; }
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     .total { text-align: right; font-weight: bold; }
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     .footer { text-align: center; margin-top: 20px; padding-top: 20px; border-top: 1px solid #ddd; }
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                 </style>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:             </head>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:             <body>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                 <div class="container">
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     <div class="header">
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         <h1>Pedido Confirmado!</h1>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     </div>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     <div class="content">
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         <p>Olá Maria Benedita Santos de Jesus,</p>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         <p>Seu pedido foi recebido e está sendo processado.</p>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         <div class="order-info">
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             <h2>Informações do Pedido</h2>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             <p><strong>Número do Pedido:</strong> #20</p>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             <p><strong>Data:</strong> 14/05/2025 01:27</p>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             <p><strong>Status:</strong> Pending</p>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         </div>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         <h2>Itens do Pedido</h2>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         <table class="items">
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             <tr>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                                 <th>Produto</th>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                                 <th>Quantidade</th>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                                 <th>Preço</th>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                                 <th>Subtotal</th>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             </tr>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                 <tr>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     <td>Iphone 15</td>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     <td>1</td>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     <td>R$ 15.000,00</td>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     <td>R$ 0,00</td>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                 </tr>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         </table>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         <div class="total">
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             <p><strong>Subtotal:</strong> R$ 15.000,00</p>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             <p><strong>Frete:</strong> R$ 0,00</p>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             <p><strong>Total:</strong> R$ 15.000,00</p>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         </div>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         <div class="delivery-info">
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             <h2>Informações de Entrega</h2>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             <p><strong>Endereço:</strong><br>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             Rua Doutor Adélio da Silva, Residencial Vila Velha<br>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             CEP: 12050720</p>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         </div>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         <div class="footer">
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             <p>Obrigado por comprar conosco!</p>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                             <p>Em caso de dúvidas, entre em contato conosco.</p>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                         </div>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                     </div>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:                 </div>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:             </body>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER:             </html>
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: --b1=_Jay5L6c7iDwU6VJlRPOp69BiS1RK8e4ansNpppDtXaA--
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: .
+
+2025-05-14 06:27:21 - Level 2: SERVER -> CLIENT: 250 2.0.0 OK  1747196843 71dfb90a1353d-52c538a6f4fsm8792809e0c.43 - gsmtp
+
+2025-05-14 06:27:21 - Level 1: CLIENT -> SERVER: QUIT
+
+2025-05-14 06:27:22 - Level 2: SERVER -> CLIENT: 221 2.0.0 closing connection 71dfb90a1353d-52c538a6f4fsm8792809e0c.43 - gsmtp
+
+2025-05-14 06:27:22 - Level 3: Connection: closed
+2025-05-14 06:27:58 - Level 3: Connection: opening to smtp.gmail.com:587, timeout=300, options=array()
+2025-05-14 06:27:58 - Level 3: Connection: opened
+2025-05-14 06:27:59 - Level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ada2fe7eead31-4dea85b24e3sm7829074137.9 - gsmtp
+
+2025-05-14 06:27:59 - Level 1: CLIENT -> SERVER: EHLO localhost
+
+2025-05-14 06:27:59 - Level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2804:14d:9e86:89aa:1848:5227:1bbf:67ec]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-05-14 06:27:59 - Level 1: CLIENT -> SERVER: STARTTLS
+
+2025-05-14 06:27:59 - Level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-05-14 06:27:59 - Level 1: CLIENT -> SERVER: EHLO localhost
+
+2025-05-14 06:28:00 - Level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2804:14d:9e86:89aa:1848:5227:1bbf:67ec]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-05-14 06:28:00 - Level 1: CLIENT -> SERVER: AUTH LOGIN
+
+2025-05-14 06:28:00 - Level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-05-14 06:28:00 - Level 1: CLIENT -> SERVER: [credentials hidden]
+2025-05-14 06:28:00 - Level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-05-14 06:28:00 - Level 1: CLIENT -> SERVER: [credentials hidden]
+2025-05-14 06:28:00 - Level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-05-14 06:28:00 - Level 1: CLIENT -> SERVER: MAIL FROM:<soterocaue2@gmail.com>
+
+2025-05-14 06:28:00 - Level 2: SERVER -> CLIENT: 250 2.1.0 OK ada2fe7eead31-4dea85b24e3sm7829074137.9 - gsmtp
+
+2025-05-14 06:28:00 - Level 1: CLIENT -> SERVER: RCPT TO:<soterocaue2@gmail.com>
+
+2025-05-14 06:28:01 - Level 2: SERVER -> CLIENT: 250 2.1.5 OK ada2fe7eead31-4dea85b24e3sm7829074137.9 - gsmtp
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: DATA
+
+2025-05-14 06:28:01 - Level 2: SERVER -> CLIENT: 354 Go ahead ada2fe7eead31-4dea85b24e3sm7829074137.9 - gsmtp
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: Date: Wed, 14 May 2025 06:27:58 +0200
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: To: Maria Benedita Santos de Jesus <soterocaue2@gmail.com>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: From: Mini ERP <soterocaue2@gmail.com>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: Subject: =?UTF-8?Q?Confirma=C3=A7=C3=A3o_de_Pedido_#21?=
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: Message-ID: <oqvBUnfzQJDggPwlCZsJnbzeoKQbs5C67dS7IvYbI@localhost>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:  boundary="b1=_oqvBUnfzQJDggPwlCZsJnbzeoKQbs5C67dS7IvYbI"
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: --b1=_oqvBUnfzQJDggPwlCZsJnbzeoKQbs5C67dS7IvYbI
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:             
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:             
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                 
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     .header { background: #4CAF50; color: white; padding: 20px; text-align: center; }
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     .content { padding: 20px; }
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     .order-info { margin-bottom: 20px; }
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     .items { width: 100%; border-collapse: collapse; margin: 20px 0; }
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     .items th, .items td { padding: 10px; border: 1px solid #ddd; }
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     .items th { background: #f5f5f5; }
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     .total { text-align: right; font-weight: bold; }
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     .footer { text-align: center; margin-top: 20px; padding-top: 20px; border-top: 1px solid #ddd; }
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                 
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:             
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:             
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                 
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         Pedido Confirmado!
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         Olá Maria Benedita Santos de Jesus,
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         Seu pedido foi recebido e está sendo processado.
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             Informações do Pedido
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             Número do Pedido: #21
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             Data: 14/05/2025 01:27
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             Status: Pending
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         Itens do Pedido
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                                 Produto
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                                 Quantidade
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                                 Preço
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                                 Subtotal
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                 
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     Iphone 15
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     1
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     R$ 15.000,00
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     R$ 0,00
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                 
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             Subtotal: R$ 15.000,00
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             Frete: R$ 0,00
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             Total: R$ 15.000,00
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             Informações de Entrega
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             Endereço:
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             Rua Doutor Adélio da Silva, Residencial Vila Velha
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             CEP: 12050720
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             Obrigado por comprar conosco!
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             Em caso de dúvidas, entre em contato conosco.
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                 
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:             
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:             
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: --b1=_oqvBUnfzQJDggPwlCZsJnbzeoKQbs5C67dS7IvYbI
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:             <html>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:             <head>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                 <style>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     .header { background: #4CAF50; color: white; padding: 20px; text-align: center; }
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     .content { padding: 20px; }
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     .order-info { margin-bottom: 20px; }
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     .items { width: 100%; border-collapse: collapse; margin: 20px 0; }
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     .items th, .items td { padding: 10px; border: 1px solid #ddd; }
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     .items th { background: #f5f5f5; }
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     .total { text-align: right; font-weight: bold; }
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     .footer { text-align: center; margin-top: 20px; padding-top: 20px; border-top: 1px solid #ddd; }
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                 </style>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:             </head>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:             <body>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                 <div class="container">
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     <div class="header">
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         <h1>Pedido Confirmado!</h1>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     </div>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     <div class="content">
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         <p>Olá Maria Benedita Santos de Jesus,</p>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         <p>Seu pedido foi recebido e está sendo processado.</p>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         <div class="order-info">
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             <h2>Informações do Pedido</h2>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             <p><strong>Número do Pedido:</strong> #21</p>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             <p><strong>Data:</strong> 14/05/2025 01:27</p>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             <p><strong>Status:</strong> Pending</p>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         </div>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         <h2>Itens do Pedido</h2>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         <table class="items">
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             <tr>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                                 <th>Produto</th>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                                 <th>Quantidade</th>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                                 <th>Preço</th>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                                 <th>Subtotal</th>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             </tr>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                 <tr>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     <td>Iphone 15</td>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     <td>1</td>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     <td>R$ 15.000,00</td>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     <td>R$ 0,00</td>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                 </tr>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         </table>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         <div class="total">
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             <p><strong>Subtotal:</strong> R$ 15.000,00</p>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             <p><strong>Frete:</strong> R$ 0,00</p>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             <p><strong>Total:</strong> R$ 15.000,00</p>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         </div>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         <div class="delivery-info">
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             <h2>Informações de Entrega</h2>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             <p><strong>Endereço:</strong><br>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             Rua Doutor Adélio da Silva, Residencial Vila Velha<br>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             CEP: 12050720</p>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         </div>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         <div class="footer">
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             <p>Obrigado por comprar conosco!</p>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                             <p>Em caso de dúvidas, entre em contato conosco.</p>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                         </div>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                     </div>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:                 </div>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:             </body>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER:             </html>
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: --b1=_oqvBUnfzQJDggPwlCZsJnbzeoKQbs5C67dS7IvYbI--
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:28:01 - Level 1: CLIENT -> SERVER: .
+
+2025-05-14 06:28:02 - Level 2: SERVER -> CLIENT: 250 2.0.0 OK  1747196883 ada2fe7eead31-4dea85b24e3sm7829074137.9 - gsmtp
+
+2025-05-14 06:28:02 - Level 1: CLIENT -> SERVER: QUIT
+
+2025-05-14 06:28:02 - Level 2: SERVER -> CLIENT: 221 2.0.0 closing connection ada2fe7eead31-4dea85b24e3sm7829074137.9 - gsmtp
+
+2025-05-14 06:28:02 - Level 3: Connection: closed
+2025-05-14 06:33:14 - Level 3: Connection: opening to smtp.gmail.com:587, timeout=300, options=array()
+2025-05-14 06:33:15 - Level 3: Connection: opened
+2025-05-14 06:33:15 - Level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a1e0cc1a2514c-87bcc8670ffsm1564289241.27 - gsmtp
+
+2025-05-14 06:33:15 - Level 1: CLIENT -> SERVER: EHLO localhost
+
+2025-05-14 06:33:15 - Level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2804:14d:9e86:89aa:1848:5227:1bbf:67ec]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-05-14 06:33:15 - Level 1: CLIENT -> SERVER: STARTTLS
+
+2025-05-14 06:33:15 - Level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-05-14 06:33:15 - Level 1: CLIENT -> SERVER: EHLO localhost
+
+2025-05-14 06:33:16 - Level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2804:14d:9e86:89aa:1848:5227:1bbf:67ec]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-05-14 06:33:16 - Level 1: CLIENT -> SERVER: AUTH LOGIN
+
+2025-05-14 06:33:16 - Level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-05-14 06:33:16 - Level 1: CLIENT -> SERVER: [credentials hidden]
+2025-05-14 06:33:16 - Level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-05-14 06:33:16 - Level 1: CLIENT -> SERVER: [credentials hidden]
+2025-05-14 06:33:16 - Level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-05-14 06:33:16 - Level 1: CLIENT -> SERVER: MAIL FROM:<soterocaue2@gmail.com>
+
+2025-05-14 06:33:17 - Level 2: SERVER -> CLIENT: 250 2.1.0 OK a1e0cc1a2514c-87bcc8670ffsm1564289241.27 - gsmtp
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: RCPT TO:<moniquesilva1300j@gmail.com>
+
+2025-05-14 06:33:17 - Level 2: SERVER -> CLIENT: 250 2.1.5 OK a1e0cc1a2514c-87bcc8670ffsm1564289241.27 - gsmtp
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: DATA
+
+2025-05-14 06:33:17 - Level 2: SERVER -> CLIENT: 354 Go ahead a1e0cc1a2514c-87bcc8670ffsm1564289241.27 - gsmtp
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: Date: Wed, 14 May 2025 06:33:14 +0200
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: To: Moniquetes <moniquesilva1300j@gmail.com>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: From: Mini ERP <soterocaue2@gmail.com>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: Subject: =?UTF-8?Q?Confirma=C3=A7=C3=A3o_de_Pedido_#22?=
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: Message-ID: <NraUoBTbjNS08OSiz0pmbLy73WDBX90LQohn2jFt1ks@localhost>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:  boundary="b1=_NraUoBTbjNS08OSiz0pmbLy73WDBX90LQohn2jFt1ks"
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: --b1=_NraUoBTbjNS08OSiz0pmbLy73WDBX90LQohn2jFt1ks
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:             
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:             
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                 
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     .header { background: #4CAF50; color: white; padding: 20px; text-align: center; }
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     .content { padding: 20px; }
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     .order-info { margin-bottom: 20px; }
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     .items { width: 100%; border-collapse: collapse; margin: 20px 0; }
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     .items th, .items td { padding: 10px; border: 1px solid #ddd; }
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     .items th { background: #f5f5f5; }
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     .total { text-align: right; font-weight: bold; }
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     .footer { text-align: center; margin-top: 20px; padding-top: 20px; border-top: 1px solid #ddd; }
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                 
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:             
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:             
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                 
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         Pedido Confirmado!
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         Olá Moniquetes,
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         Seu pedido foi recebido e está sendo processado.
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             Informações do Pedido
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             Número do Pedido: #22
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             Data: 14/05/2025 01:33
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             Status: Pending
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         Itens do Pedido
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                                 Produto
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                                 Quantidade
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                                 Preço
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                                 Subtotal
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                 
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     Honda Civic
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     1
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     R$ 100.000,00
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     R$ 0,00
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                 
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             Subtotal: R$ 100.000,00
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             Frete: R$ 0,00
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             Total: R$ 100.000,00
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             Informações de Entrega
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             Endereço:
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             Rua Doutor Adélio da Silva, Residencial Vila Velha
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             CEP: 12050720
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             Obrigado por comprar conosco!
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             Em caso de dúvidas, entre em contato conosco.
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                 
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:             
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:             
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: --b1=_NraUoBTbjNS08OSiz0pmbLy73WDBX90LQohn2jFt1ks
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:             <html>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:             <head>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                 <style>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     .header { background: #4CAF50; color: white; padding: 20px; text-align: center; }
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     .content { padding: 20px; }
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     .order-info { margin-bottom: 20px; }
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     .items { width: 100%; border-collapse: collapse; margin: 20px 0; }
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     .items th, .items td { padding: 10px; border: 1px solid #ddd; }
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     .items th { background: #f5f5f5; }
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     .total { text-align: right; font-weight: bold; }
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     .footer { text-align: center; margin-top: 20px; padding-top: 20px; border-top: 1px solid #ddd; }
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                 </style>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:             </head>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:             <body>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                 <div class="container">
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     <div class="header">
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         <h1>Pedido Confirmado!</h1>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     </div>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     <div class="content">
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         <p>Olá Moniquetes,</p>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         <p>Seu pedido foi recebido e está sendo processado.</p>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         <div class="order-info">
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             <h2>Informações do Pedido</h2>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             <p><strong>Número do Pedido:</strong> #22</p>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             <p><strong>Data:</strong> 14/05/2025 01:33</p>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             <p><strong>Status:</strong> Pending</p>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         </div>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         <h2>Itens do Pedido</h2>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         <table class="items">
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             <tr>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                                 <th>Produto</th>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                                 <th>Quantidade</th>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                                 <th>Preço</th>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                                 <th>Subtotal</th>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             </tr>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                 <tr>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     <td>Honda Civic</td>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     <td>1</td>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     <td>R$ 100.000,00</td>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     <td>R$ 0,00</td>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                 </tr>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         </table>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         <div class="total">
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             <p><strong>Subtotal:</strong> R$ 100.000,00</p>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             <p><strong>Frete:</strong> R$ 0,00</p>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             <p><strong>Total:</strong> R$ 100.000,00</p>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         </div>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         <div class="delivery-info">
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             <h2>Informações de Entrega</h2>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             <p><strong>Endereço:</strong><br>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             Rua Doutor Adélio da Silva, Residencial Vila Velha<br>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             CEP: 12050720</p>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         </div>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         <div class="footer">
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             <p>Obrigado por comprar conosco!</p>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                             <p>Em caso de dúvidas, entre em contato conosco.</p>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                         </div>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                     </div>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:                 </div>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:             </body>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER:             </html>
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: --b1=_NraUoBTbjNS08OSiz0pmbLy73WDBX90LQohn2jFt1ks--
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:33:17 - Level 1: CLIENT -> SERVER: .
+
+2025-05-14 06:33:18 - Level 2: SERVER -> CLIENT: 250 2.0.0 OK  1747197199 a1e0cc1a2514c-87bcc8670ffsm1564289241.27 - gsmtp
+
+2025-05-14 06:33:18 - Level 1: CLIENT -> SERVER: QUIT
+
+2025-05-14 06:33:18 - Level 2: SERVER -> CLIENT: 221 2.0.0 closing connection a1e0cc1a2514c-87bcc8670ffsm1564289241.27 - gsmtp
+
+2025-05-14 06:33:18 - Level 3: Connection: closed
+2025-05-14 06:38:32 - Level 3: Connection: opening to smtp.gmail.com:587, timeout=300, options=array()
+2025-05-14 06:38:32 - Level 3: Connection: opened
+2025-05-14 06:38:32 - Level 2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a1e0cc1a2514c-879f613b5d0sm7996866241.6 - gsmtp
+
+2025-05-14 06:38:32 - Level 1: CLIENT -> SERVER: EHLO localhost
+
+2025-05-14 06:38:33 - Level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2804:14d:9e86:89aa:1848:5227:1bbf:67ec]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-05-14 06:38:33 - Level 1: CLIENT -> SERVER: STARTTLS
+
+2025-05-14 06:38:33 - Level 2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+2025-05-14 06:38:33 - Level 1: CLIENT -> SERVER: EHLO localhost
+
+2025-05-14 06:38:33 - Level 2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2804:14d:9e86:89aa:1848:5227:1bbf:67ec]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-05-14 06:38:33 - Level 1: CLIENT -> SERVER: AUTH LOGIN
+
+2025-05-14 06:38:34 - Level 2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-05-14 06:38:34 - Level 1: CLIENT -> SERVER: [credentials hidden]
+2025-05-14 06:38:34 - Level 2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-05-14 06:38:34 - Level 1: CLIENT -> SERVER: [credentials hidden]
+2025-05-14 06:38:34 - Level 2: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-05-14 06:38:34 - Level 1: CLIENT -> SERVER: MAIL FROM:<soterocaue2@gmail.com>
+
+2025-05-14 06:38:34 - Level 2: SERVER -> CLIENT: 250 2.1.0 OK a1e0cc1a2514c-879f613b5d0sm7996866241.6 - gsmtp
+
+2025-05-14 06:38:34 - Level 1: CLIENT -> SERVER: RCPT TO:<m.moreira2801@gmail.com>
+
+2025-05-14 06:38:35 - Level 2: SERVER -> CLIENT: 250 2.1.5 OK a1e0cc1a2514c-879f613b5d0sm7996866241.6 - gsmtp
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: DATA
+
+2025-05-14 06:38:35 - Level 2: SERVER -> CLIENT: 354 Go ahead a1e0cc1a2514c-879f613b5d0sm7996866241.6 - gsmtp
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: Date: Wed, 14 May 2025 06:38:32 +0200
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: To: Matheus Moreira de Souza <m.moreira2801@gmail.com>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: From: Mini ERP <soterocaue2@gmail.com>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: Subject: =?UTF-8?Q?Confirma=C3=A7=C3=A3o_de_Pedido_#23?=
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: Message-ID: <aQ9hImWbJAVn7SOcCY0CP7WYxHMLzJEGpkK03gmbI@localhost>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:  boundary="b1=_aQ9hImWbJAVn7SOcCY0CP7WYxHMLzJEGpkK03gmbI"
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: --b1=_aQ9hImWbJAVn7SOcCY0CP7WYxHMLzJEGpkK03gmbI
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:             
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:             
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                 
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     .header { background: #4CAF50; color: white; padding: 20px; text-align: center; }
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     .content { padding: 20px; }
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     .order-info { margin-bottom: 20px; }
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     .items { width: 100%; border-collapse: collapse; margin: 20px 0; }
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     .items th, .items td { padding: 10px; border: 1px solid #ddd; }
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     .items th { background: #f5f5f5; }
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     .total { text-align: right; font-weight: bold; }
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     .footer { text-align: center; margin-top: 20px; padding-top: 20px; border-top: 1px solid #ddd; }
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                 
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:             
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:             
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                 
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         Pedido Confirmado!
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         Olá Matheus Moreira de Souza,
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         Seu pedido foi recebido e está sendo processado.
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             Informações do Pedido
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             Número do Pedido: #23
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             Data: 14/05/2025 01:38
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             Status: Pending
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         Itens do Pedido
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                                 Produto
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                                 Quantidade
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                                 Preço
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                                 Subtotal
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                 
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     Pênis de Borracha 40 CM
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     1
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     R$ 100,00
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     R$ 0,00
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                 
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             Subtotal: R$ 100,00
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             Frete: R$ 15,00
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             Total: R$ 115,00
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             Informações de Entrega
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             Endereço:
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             Rua Doutor Adélio da Silva, Residencial Vila Velha
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             CEP: 12050720
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             Obrigado por comprar conosco!
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             Em caso de dúvidas, entre em contato conosco.
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                 
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:             
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:             
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: --b1=_aQ9hImWbJAVn7SOcCY0CP7WYxHMLzJEGpkK03gmbI
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:             <html>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:             <head>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                 <style>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     .header { background: #4CAF50; color: white; padding: 20px; text-align: center; }
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     .content { padding: 20px; }
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     .order-info { margin-bottom: 20px; }
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     .items { width: 100%; border-collapse: collapse; margin: 20px 0; }
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     .items th, .items td { padding: 10px; border: 1px solid #ddd; }
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     .items th { background: #f5f5f5; }
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     .total { text-align: right; font-weight: bold; }
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     .footer { text-align: center; margin-top: 20px; padding-top: 20px; border-top: 1px solid #ddd; }
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                 </style>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:             </head>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:             <body>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                 <div class="container">
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     <div class="header">
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         <h1>Pedido Confirmado!</h1>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     </div>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     <div class="content">
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         <p>Olá Matheus Moreira de Souza,</p>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         <p>Seu pedido foi recebido e está sendo processado.</p>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         <div class="order-info">
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             <h2>Informações do Pedido</h2>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             <p><strong>Número do Pedido:</strong> #23</p>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             <p><strong>Data:</strong> 14/05/2025 01:38</p>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             <p><strong>Status:</strong> Pending</p>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         </div>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         <h2>Itens do Pedido</h2>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         <table class="items">
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             <tr>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                                 <th>Produto</th>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                                 <th>Quantidade</th>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                                 <th>Preço</th>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                                 <th>Subtotal</th>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             </tr>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                 <tr>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     <td>Pênis de Borracha 40 CM</td>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     <td>1</td>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     <td>R$ 100,00</td>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     <td>R$ 0,00</td>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                 </tr>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         </table>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         <div class="total">
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             <p><strong>Subtotal:</strong> R$ 100,00</p>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             <p><strong>Frete:</strong> R$ 15,00</p>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             <p><strong>Total:</strong> R$ 115,00</p>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         </div>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         <div class="delivery-info">
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             <h2>Informações de Entrega</h2>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             <p><strong>Endereço:</strong><br>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             Rua Doutor Adélio da Silva, Residencial Vila Velha<br>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             CEP: 12050720</p>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         </div>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         <div class="footer">
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             <p>Obrigado por comprar conosco!</p>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                             <p>Em caso de dúvidas, entre em contato conosco.</p>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                         </div>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                     </div>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:                 </div>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:             </body>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER:             </html>
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: --b1=_aQ9hImWbJAVn7SOcCY0CP7WYxHMLzJEGpkK03gmbI--
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: 
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: .
+
+2025-05-14 06:38:35 - Level 2: SERVER -> CLIENT: 250 2.0.0 OK  1747197517 a1e0cc1a2514c-879f613b5d0sm7996866241.6 - gsmtp
+
+2025-05-14 06:38:35 - Level 1: CLIENT -> SERVER: QUIT
+
+2025-05-14 06:38:36 - Level 2: SERVER -> CLIENT: 221 2.0.0 closing connection a1e0cc1a2514c-879f613b5d0sm7996866241.6 - gsmtp
+
+2025-05-14 06:38:36 - Level 3: Connection: closed

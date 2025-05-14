@@ -1,0 +1,15 @@
+{
+    "name": "mini-erp-php/mini-erp",
+    "description": "Mini ERP em PHP",
+    "type": "project",
+    "require": {
+        "php": ">=7.0",
+        "ext-pdo": "*",
+        "phpmailer/phpmailer": "^6.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
