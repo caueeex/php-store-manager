@@ -17,7 +17,7 @@ class Mailer {
         $this->mailer->Username = 'soterocaue2@gmail.com';
         // IMPORTANTE: Use uma senha de aplicativo gerada no Google Account
         // Para gerar: https://myaccount.google.com/apppasswords
-        $this->mailer->Password = 'eehq jcbj vefj fuln'; // Substitua pela senha de aplicativo gerada
+        $this->mailer->Password = 'ojpd kzml uhwa llie'; // Substitua pela senha de aplicativo gerada
         $this->mailer->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $this->mailer->Port = 587;
         $this->mailer->CharSet = 'UTF-8';
